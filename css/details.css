@@ -1,0 +1,343 @@
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,
+legend,img,input,b,span{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+ 	color: #333;
+    font: 12px/1.5 \5FAE\8F6F\96C5\9ED1, tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+ }
+ ul li{
+ 	list-style: none;
+ }
+ a{
+ 	text-decoration: none;
+ }
+ .returnPage{
+	width: 1190px;
+    margin: 11px auto 0px auto;
+    padding-bottom: 10px;
+    height: 20px;
+    border-bottom: 1px solid #eee;
+ }
+ .returnPage a{
+ 	float: left;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    color: #666;
+ }
+ .returnPage span{
+ 	display: inline-block;   
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    background: url(../images/atom_sprite.png)no-repeat -20px -20px;
+ }
+ .product_show{
+ 	width: 1190px;
+ 	margin:40px auto 60px auto;
+ 	overflow: hidden;	
+ }
+ .product_left{
+ 	float: left;
+    padding-left: 85px;
+    position: relative;
+ }
+ .showImg{
+ 	background-color: #fff;
+    width: 500px;
+    height: 500px;
+    margin-right: 95px;
+    position: relative;
+ }
+ .filter{
+ 	width: 209px;
+    height: 209px;
+    position: absolute;
+    background-color: #0080dc;
+    opacity: .2;
+ }
+ .small{
+ 	margin-top: 30px;
+    padding-left: 50px;
+    overflow: hidden;
+    
+ }
+ .small .smallImg{
+ 	border: none;
+ 	width: 60px;
+ 	height: 60px;
+ 	border: 1px solid #d6d6d6;
+    background-color: #fff;
+    cursor: pointer;
+    float: left;
+    margin: 1px 10px 1px 1px;
+ }
+ 
+ .shareTo{
+ 	padding-left: 50px;
+    margin-top: 20px;
+    height: 18px;
+    line-height: 18px;
+ }
+ .shareTo .icon-10{
+ 	color: #0092d8;
+ 	margin-left: 10px;
+ }
+ .icon-weixin{
+ 	color:#09bb07;
+ 	margin-left: 10px;
+ }
+ .icon-shoucang{
+ 	color:#999999;
+ 	margin-left: 20px;
+ 	padding-left: 20px;
+ 	padding-right: 6px;
+ 	border-left: 1px solid #e6e;
+ }
+ .icon-duibi{
+ 	color:#989898;
+ 	padding-left: 20px;
+ 	padding-right: 6px;
+ }
+ .product_right{
+ 	float: left;
+ 	width: 510px;
+ 	
+ }
+ // 图片右边
+ .product_right h1{
+ 	font-size: 22px;
+ 	max-height: 54px;
+ 	line-height: 28px;
+ 	color: #333;
+ 	margin-top: -3px;
+    margin-bottom: 10px;
+ 	font-weight: normal;
+ 	overflow: hidden;
+ 	word-wrap: break-word;
+ 	word-wrap: break-word;
+ 	font-family: inherit;
+}
+.product_right h5{
+	color: #f60;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: normal;
+    margin-top: -3px;
+    margin-bottom: 8px;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-all;
+    position: relative;
+}
+.product_introduce{
+	margin-bottom: 30px;
+}
+.product_price{
+	color: #f60;
+	background-color: #f2f2f2;
+    padding: 15px 20px;
+    font-size: 0;
+    line-height: 1;
+}
+.product_price span{
+	font-size: 18px;
+}
+.price{
+	
+	font-size: 32px;
+}
+.discount,.coupon,.appraise{
+	padding: 20px 0 17px;
+    border-bottom: 1px dashed #eee;
+}
+h3{
+	line-height: 18px;
+	float: left;
+    width: 54px;
+    font-size: 12px;  
+    color: #999;
+    font-weight: normal;
+}
+.integral{
+	overflow: hidden;
+	
+}
+.discount .integral .sendIntegral{
+	color: #fff;
+    background-color: #f60;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    width: 54px;
+    text-align: center;
+    float: left;
+}
+.maxIntegral{
+	margin-left: 10px;
+	display: inline-block;
+	float: left;
+	
+	
+}
+.coupon{
+	overflow: hidden;
+}
+.coupon span{
+	background-color: #ff784c;
+	float: left;
+    display: inline-block;
+    font-size: 11px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    padding: 0 10px;
+
+}
+.coupon h3{
+	line-height: 20px;
+}
+.getCoupon{
+	float: left;
+
+}
+.getCoupon a{
+	background-color: #ff784c;
+    border-left: 1px dashed #fff;
+    float: left;
+    display: inline-block;
+    font-size: 11px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    padding: 0 10px;
+}
+.appraise{
+	overflow: hidden;
+	
+}
+.appraise h3{
+	line-height: 24px;
+}
+.appraise span{
+	display: block;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 10px;
+    margin-right:15px;
+    color: #000;
+    border: 1px solid #90ebae;
+
+}
+.product_color h3{
+	line-height: 40px;
+}
+.product_color,.product_count,.fenqi{
+	overflow: hidden;
+}
+.product_count h3{
+	line-height: 30px;
+}
+#num{
+	width: 40px;
+	height: 28px;
+	border: none;
+	border-top: 1px solid #d6d6d6;
+	border-bottom: 1px solid #d6d6d6;
+	float: left;
+	text-align: center;
+	
+	
+}
+.reduce,.add{
+	width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #d6d6d6;
+    text-align: center;
+    float: left;
+    
+}
+.shipping_address{
+	margin-top: 15px;
+}
+.fenqi h3{
+	line-height: 30px;
+}
+.fenqi_title{
+	color: #f60;
+    line-height: 30px;
+    font-weight: bold;
+}
+.fenqi ul li{
+	text-align: center;
+    border: 1px solid #d6d6d6;
+    font-weight: bold;
+    margin-right: 2px;
+    padding: 10px 15px;
+    float: left;
+    
+}
+.product_supplier{
+	
+	margin-top: 15px;
+}
+.product_supplier h3{
+	line-height: 30px;
+}
+.product_supplier span{
+	line-height: 30px;
+	display: inline-block;	
+	height: 30px;
+	color: #f30;
+}
+.product_btn .addCart,.product_btn .arrivalNotice{
+	display: inline-block;
+	background-color: #0092d8;
+    margin-right: 10px;
+	font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    width: 205px;
+    text-align: center;
+    color: #fff;
+    padding: 0;
+    cursor: pointer;
+}
+.product_btn{
+	margin-bottom: 10px;
+}
+.product_btn .addCart:hover{
+	background-color: #006FA3;
+}
+.product_btn .arrivalNotice{
+	background-color: #f60;
+}	
+ .product_btn .arrivalNotice:hover{
+ 	background-color: #D95700;
+ }
+ .icon-lingsheng{
+ 	width: 16px;
+ 	height: 16px;
+ 	display: inline-block;
+ 	
+ }
+ .icon-right_circle{
+	width: 18px;
+ 	height: 18px;
+ 	display: inline-block;
+ }
+.server span{
+	display: inline-block;
+    padding-left: 5px;
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+    margin-right: 15px;
+}
+.icon-right_circle{
+	color: #0092d8;
+}
